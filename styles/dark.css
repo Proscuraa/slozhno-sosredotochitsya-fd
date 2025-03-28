@@ -1,6 +1,5 @@
 
 :root.theme-dark {
-  --font-family: "IBM Plex Mono";
   --bg-color: #000028;
   --text-color: #F1B2CE;
   --bg-image: url(../images/cover-image-dark.png);
@@ -11,7 +10,7 @@
   --footer-accent: #FF0070;
   --shadow-accent: #FF0070;
   --hover-button: #FF007066;
-
+  --visible-decor: visible;
 }
 
 
