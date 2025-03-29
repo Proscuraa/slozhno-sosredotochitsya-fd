@@ -35,8 +35,7 @@
   box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
-.header::after,
-.decorated__footer::after {
+.decorated__zone::after {
   content: "";
   position: absolute;
   border-top: 1px solid var(--accent-color);
@@ -48,8 +47,7 @@
   margin-block-start: 2px;
 }
 
-.header::before,
-.decorated__footer::before {
+.decorated__zone::before {
   content: "";
   position: absolute;
   border-left: 1px solid var(--accent-color);
@@ -152,7 +150,7 @@
 }
 
 .link:focus-visible {
-  border: 1px solid var(--text-color);
+  outline: 1px solid var(--text-color);
 }
 
 .text {
